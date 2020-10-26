@@ -116,7 +116,13 @@ to communicate, push on button, speak, release button
 
 !! Solution can be expanded into other fields such as construction, warehousing logistics, oil and gas, emergency services, etc
 
+Solution can also be expanded into other athletic events
+
 Solution can also be used to improve rider's safety other than providing a hands-free, disruptive free, clear communication between riders and the race of the race participants
+
+Everyday cyclists who need voice guidance, etc
+
+Delivery Vehicles, Delivery Trucks, Dispatchers, etc
 
 Example concussion protocols:
 
@@ -172,6 +178,14 @@ Beam forming (when paired with appropriate in ear piece such as the apple air po
 - automatic language translation (official languages of pro peloton are english, french + language of country in which race is being held) , though most riders speak english and/or french, not all do, and riders have varying degrees of fluency
 - voice biometrics
 - potential for on-device embedded voice interaction
+
+### Constraints
+- placement of device on rider
+- resistant to rain, dust, wind, vibrations
+- clear communication even in strong wind
+- rider's don't need to activate communication device with their hands
+- needs to work even when rider is exerting maximal effort
+- needs to work even when crowds of supporters on the race route shouting and screaming in the riders' face
 
 
 
