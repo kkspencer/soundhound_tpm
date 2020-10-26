@@ -1,4 +1,4 @@
-# Problems, Solutions & Requirements Gathering
+# Problems, Solutions & Requirements Gathering for Potential Partnership
 
 ## Directeur Sportif
 ### Number of Radios used during a typical grand tour
@@ -116,17 +116,62 @@ to communicate, push on button, speak, release button
 
 !! Solution can be expanded into other fields such as construction, warehousing logistics, oil and gas, emergency services, etc
 
+Solution can also be used to improve rider's safety other than providing a hands-free, disruptive free, clear communication between riders and the race of the race participants
+
+Example concussion protocols:
+
+Some signs of concussion include:
+- vacant stare
+- delayed repsonses (slow to answer questions or follow instructions)
+- inattention (easily distracted or unable to follow conversations)
+- disorientation (walking in the wrong direction, unaware of time, date, pace)
+- slurred or incoherent speech (making disjointed or incomprehensible statements)
+- incoordination (stumbling, inability to walk tandem or a straight line)
+- inappropriate emotionally (appearing distraught, crying for no apparent reason)
+- memory problems
+- loss of consciousness
+
+
+communication channel in case of incidence
+(riders, directeur sportifs, race helicopters, race motorcycle, race police, etc)
+- need a way to detect a fall, launch a concussion protocol, while information of the incident is being relayed to the proper channels for intervention
+
+
+
 ## Some barriers to adoption of a new solution
 1. Riders, who believe that using radios makes the race more predictable, and thus boring
 2. Technology inertia from teams and race organizers
 3. UCI
 Barriers to Adoption:
-UCI Race Telemetry Authorization Request:
+UCI Race Telemetry Authorization Request: needs to be submitted at least 6 weeks before the beginning of the race
 https://www.uci.org/docs/default-source/equipment/uci-worldtour-declaration-telemetry-enc02e108578304809860c513e734bea5e.pdf
 
 UCI Prototype Application Form:
 https://www.uci.org/docs/default-source/equipment/eng-prototype-application-form.pdf
 
+UCI World Tour Specifications for Race Organisers:
+https://www.uci.org/docs/default-source/publications/uci-worldtour---specifications-for-organisers.pdf?sfvrsn=17efe485_4
+
+
+
+263 Teams in the UCI (Union Cyclistes Internationale) International Cyclists Association
+
+19 Men's World Tour Teams with 12 based in Europe
+8 Women's World Teams
+19 Pro Teams
+170 Men's Continental Teams
+47 Women's Continental Teams
+
+
+
+## Why SoundHound solution?
+Beam forming (when paired with appropriate in ear piece such as the apple air pods?)
+- echo cancellation
+- emotion detection (could be useful for concussion protocol)
+- fingerprint identification
+- automatic language translation (official languages of pro peloton are english, french + language of country in which race is being held) , though most riders speak english and/or french, not all do, and riders have varying degrees of fluency
+- voice biometrics
+- potential for on-device embedded voice interaction
 
 
 
