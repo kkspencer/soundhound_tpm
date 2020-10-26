@@ -6,7 +6,7 @@ Basic Stats:
 ~50M athlete activity uploads from 195 countries
 ~400+ compatible mobile phones and GPS devices
 ~19M activity uploads / week
-~25K new cycling and running segments / month
+~25K new cycling and running segments / month with over 20M segments
 
 source: https://blog.strava.com/press/strava-milestones-50-million-athletes-and-3-billion-activity-uploads/
 
@@ -23,3 +23,13 @@ for athletes who travel and may not necessarily know the emergency number to dia
 auto-dial 112 in europe, etc
 
 talk about story of passing out while mountain biking and being knocked out
+
+## Strava Beacon
+Share location in real time (location, moving time, battery level, etc)
+
+# Strava Performance Coaching and Tracking
+HR, cadence, power, running speed, running cadence, elevation gain, distance, etc
+
+# Strava Segments
+voice guide on segments, points of interests, hazard spots, KOM splits
+(world's largest route and trail resource)
