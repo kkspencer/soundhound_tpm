@@ -6,13 +6,13 @@ As a firm believer in SoundHound's mission of enabling humans to interact with t
 Skilled in:
 - [Patent Infringement Analysis for US Patents](sample_patent_infringement_analysis.md)
 - [Patentability Analysis based on U.S Intellectual Property Law](/patentability_analysis.pdf)
-- [Writing Provisional Patent Applications for the U.S.P.T.O](/sample_provisional_patent.pdf)
+- [Writing Provisional Patent Applications for the U.S Patent and Trademark Office](/sample_provisional_patent.pdf)
 
 ## Technical Writing / Developer Advocacy
 Skilled in:
 - [Writing QuickStart guides to a new language or framework](https://kkspencer.github.io/tech-writing/getting-started-with-cuelang/)
 - [Writing Technical guides for new tools](https://kkspencer.github.io/tech-writing/using-go-modules/)
-- [Simplying and making new tools accessible to developers](https://kkspencer.github.io/tech-writing/authoring-schemas-with-avro-idl/)
+- [Simplifying and making new tools accessible to developers](https://kkspencer.github.io/tech-writing/authoring-schemas-with-avro-idl/)
 
 ## Product Management
 - [SoundHound Domain Partnership Proposition](domain_partnership_proposition.md)
