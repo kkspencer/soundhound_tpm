@@ -38,7 +38,7 @@ and so on, thus providing detailed insights into the athlete's performance.
 By leveraging the Houndify platform and the Strava API, engineers can build new features such as voice coaches that can guide an athlete in real-time and provide feedback on her performance.
 
 Further, health protocols, such as a concussion protocol can be built into the app to detect warning signs of a concussion such as:
-- delayed repsonses (slow to answer questions or follow instructions)
+- delayed responses (slow to answer questions or follow instructions)
 - inattention (easily distracted or unable to follow conversations)
 - slurred or incoherent speech (making disjointed or incomprehensible statements)
 - inappropriate emotionally (appearing distraught, crying for no apparent reason)
