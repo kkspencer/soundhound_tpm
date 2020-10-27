@@ -5,8 +5,8 @@ As a firm believer in SoundHound's mission of enabling humans to interact with t
 ## U.S Intellectual Property Law
 Skilled in:
 - [Patent Infringement Analysis for US Patents](sample_patent_infringement_analysis.md)
-- [Patentability Analysis based on U.S Intellectual Property Law](/Patentability Analysis Assignment.pdf)
-- [Writing Provisional Patent Applications for the U.S.P.T.O](/Sample Provisional Patent Application.pdf)
+- [Patentability Analysis based on U.S Intellectual Property Law](/patentability_analysis.pdf)
+- [Writing Provisional Patent Applications for the U.S.P.T.O](/sample_provisional_patent.pdf)
 
 ## Technical Writing / Developer Advocacy
 Skilled in:
