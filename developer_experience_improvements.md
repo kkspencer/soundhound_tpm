@@ -1,40 +1,39 @@
-In the Houndify Developer Guide, the section on Writing Expressions could be improved by defining the actual grammar used for evaluating expressions that Houndify can recognize.
+# Proposals for Improving the Developer Experience through Documentation
 
-From the current documentation, relying on "these expressions can contain a simple string, or a sequence of words with weights and operators. If the expresion contains at least one double-quote character, it is taken as an expression. Otherwise, it is taken as an exact string to match ... can be expanded upon.
+## Houndify Developer Guide
 
-Further, the section on adding weights could be improved to first introduced the "what" and "why" of adding weights to an expression. Is it for Maximum Likelihood Estimation of a word based on an n-gram language model?
+### Custom Commands
+In the Houndify Developer Guide, the section on Writing Expressions teaches how to incorporate custom commands by writing expressions that specify phrases which they want the Houndify Server to recognize.
 
-Or does it imply a Hidden markov Model, given:
-- a set of n states
-- a transition probability matrix where each element represents the probability of moving from one state to another
-- a sequence of observations, drawn from a vocabulary
-- sequence of observation likelihoods, each expressing the probability of an observation being generated from a particular state
-- An initial probability distribution over states, determining the probability of a Markov chain starting in a particular state?
+From the perspective of a developer new to voice user interfaces, phrases such as:
+> ... these expressions can contain a simple string, or a sequence of words with weights and operators. If the expresion contains at least one double-quote character, it is taken as an expression. Otherwise, it is taken as an exact string to match ...
 
-Perhaps, is there a way to teach this?
-Is there a guide that can further explain the principles behind this? Currently the document is a little confusing
+does not reveal much in terms of the actual grammar that the Houndify server uses to validate an expression. This can be improved by formally defining the grammar that the Houndify server uses to validate an expression, as well as providing several examples of expressions. To improve on this, an expression validation tool can be built to help developers and product managers quickly develop and validate custom commands.
 
+Further, the section on adding weights is unclear about the "what" and "why" of adding weights to an expression. It raises some ambiguities in the form of:
+- do these weights imply a maximum likelihood estimation based on an n-gram language model? and are developers expected to know about statistical or neural language models?
+- do these weights imply a Hidden Markov Model with a given set of states, a transition probability, a sequence of observation likelihoods, etc?
 
-For the Writing Expressions section, we could also allow the developer to write a list of several phrases with variations, etc which can be tested against the grammar, and then provide feedback to improve it. 
-It is not quite obvious how to assign weights to certain words and developers may find it beneficial if more tooling was provided around that.
+I believe documentation clarifying the use of weights in expressions, as well as the principles behind them will be beneficial to developers using the Houndify platform.
 
+### Search Engine
+Currently, the developer documentation does not have a search tool, making it difficult to find or reference important information. Without a search tool, developers have to scroll through all sections of the documentation and sometimes guess the section in which the information they are looking for might be located. Having to repeat this several times a day over the span of a project which may take weeks or months can quickly become tedious and inefficient. Thus, adding a search tool will have a strong positive impact for developers using the Houndify platform.
 
-2. Incorporate a Search feature, to make it easier to reference specific sections of the document without having to scroll through all sections, and sometimes, take a guess on which section the information you're looking for might be located
+### User Experience Improvement
+Currently, the developer documentation is split between an embedded documentation on the Houndify platform (which requires authentication) and tutorials hosted on Medium. This introduces additional friction to the developer experience since a piece of information in the developer guide may be cross-referenced on Medium and vice-versa, forcing the developer to switch back and forth between the two platforms.
 
-3. The user-experience is sometimes lacking especially when it comes to the related tutorials that are incorporated into the documentation. Often, these related tutorials are hosted on Medium with cross-references back to specific sections of the documentation. This constant back and forth between medium and the developer documentation can become frustrating sometimes
+Further, developers that are not signed in to the Houndify platform are unable to reference any specific parts of the developer documentation referenced in the developer tutorials on Medium.
 
-4. Because the developer documentation requires authentication, whereas the tutorials and guides are publicly available on Medium, developers need to make sure that they are always signed in to Houndify in order to access the documentation. Developers that are not signed in to Houndify will be unable to reference any specific portions of the documentation referenced on Medium
+A solution may be to unify the developer documentation on a single platform so that developers spend less time switching from one platform to the other. This has the added benefit of providing a more coherent base to build on.
 
+## Debugging applications built with Houndify
+A key part of writing Voice AI applications is the user experience. For developers, this is usually weighted towards Debugging tools which allows them to quickly test the validity of queries and their associated responses from the Houndify server, but also verify other aspects such as:
+- how well an end-user of the application is able to accomplish her goals
+- estimating the pace of interaction between the AI agent and the end-user
+- the speed with which the AI agent replies to the end-users queries
+- the number of corrections needed to get the correct response from the AI agent
+- the number of end-user time outs
+- the number of speech recognition errors or rejections
 
-6. Debugging applications
-A part of writing voice ai applications is the User Experience, and as such, the tools for Debugging should allow developers to be able to not only test the validity of their queries and the response from the Houndify server, but also other aspects such as:
-- how well the user is able to accomplish their goals
-- estimating the pace of interaction with the system
-- how slow was the system to reply
-- number of corrections needed to get the correct response
-- number of user time outs
-- number of speech recognition errors or rejections
-
-Incorporating Frameworks such as the 
-[PARADISE framework for evaluating Spoken Dialogue Agents](https://arxiv.org/pdf/cmp-lg/9704004.pdf)
+By incorporating an evaluation framework such as the [PARADISE framework for evaluating Spoken Dialogue Agents](https://arxiv.org/pdf/cmp-lg/9704004.pdf), the Houndify platform can provide a superior developer experience when compared with its competitors.
 
