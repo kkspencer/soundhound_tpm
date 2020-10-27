@@ -1,5 +1,45 @@
 # Problems, Solutions & Requirements Gathering for Potential Partnership
 
+- End User: Who specifically would be using your product?
+- Application: What would the end user be using your product for? What is the task that owuld be dramatically improved by your new venture?
+- Benefits: What is the actual value that the end user would gain from the use of your new product? Not features or functions, but specifically, what the end user gains from the product. Is it a time savings? A cost savings? Additional profit?
+- Lead Customers:Who are the most influential customers that others look to for thought leadership and adoption of new technology? These are the customers who are so respected that when they buy, others look to them and follow their lead, gaining you instant credibility. They must be respected by others as innovative and successful customers who purchase because he product provides them with real value and not simply bragging rights
+- Market Characteristics: What about this market would help or hinder the adoption of the new product or service?
+- Partners/Players: Which companies will you need to work with to provide a solution that integrates into the customer's workflow?
+- Market Size: Roughly, how many potential customers exist if you achieve 100 percent market penetration?
+- Competition: Who, if anyone is making similar products, real or perceived?
+- Complementary Assets Required: What else does your customer need in order to get the full solution from your product? Identify which other products your customer will need to buy to use your product.
+
+
+End User Profiles:
+- End User : the person/persons who will use the product or service
+- Decision Making Unit: - the person/persons who decides whether the end user wil buy the product
+- How will the user find out about the product, acquire it, use it, get value from it, pay for it, buy more of it, and tell others about it?
+- what will be the key interface points?
+- why exactly would the customer want to acquire the product? how will he determine that he has a need for your product?
+- what barriers to adoption might arise?
+- how will the customer determine the value gained from the product?
+- how will the customer receive support for the product?
+
+
+
+Market Profile:
+- how many end users exists that fit our End User Profile
+- how much revenue is each end user worth per year
+- is the market big enough to get to critical mass quickly, develop key capabilities and get to cash-flow positive?
+- how much are customers spending today to accomplish what your product does? How much have they paid in the past for other products? How much value does your product create for them?
+
+
+Quantified Value Proposition Diagram
+- show the "as-is" state compared to the "possible" state that visually illustrates the value your product has to the customer
+- define the "as-is" and "possible" states so clearly that any target customer will easily be able to understand, agree, or disagree, and then comment on the assessment
+
+
+Follow-on Markets and Next Potential Customers:
+
+
+
+
 ## Directeur Sportif
 ### Number of Radios used during a typical grand tour
 - 1 radio for communication with the Radio Tour
