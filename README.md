@@ -17,4 +17,3 @@ Skilled in:
 ## Product Management
 - [SoundHound Domain Partnership Proposition](domain_partnership_proposition.md)
 - [SoundHound Developer Experience Improvements](developer_experience_improvements.md)
-- [Product Requirements Gathering leveraging the SoundHound Houndify Platform](requirements_gathering.md)
